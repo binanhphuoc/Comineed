@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar/>
+        Hi
         <iframe
           align="left"
           frameborder={0} style={{width:"50vw", height: "100vh",borderLeft:0}}
