@@ -13,6 +13,7 @@ class App extends Component {
           frameborder={0} style={{width:"50vw", height: "100vh",borderLeft:0}}
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAmRGqEXBVcufLBcFGDw1T-Q5f7WxzUMj4&q=Space+Needle,Seattle+WA" allowfullscreen>
         </iframe>
+        Hello Kitty
       </div>
     );
   }
