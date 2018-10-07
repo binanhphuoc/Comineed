@@ -18,9 +18,8 @@ class Inforpanel extends Component {
   render() {
     const {title} = this.props;
     return (
-      <div>
+      <div style={{display:'inline-block', width:'50%'}}>
         <TitleBar title={title}/>
-        }}/>
       </div>
     );
   }

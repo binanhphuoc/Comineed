@@ -17,7 +17,8 @@ function SimpleAppBar(props) {
   return (
     <div className={classes.root}>
       <AppBar align="right"
-          frameborder={0} style={{width:"50vw", height: "10vh",borderLeft:0,backgroundColor:"white"}}>
+          frameborder={0} style={{backgroundColor:"white"}}
+          position='relative'>
         <Toolbar>
           <Typography variant="title" color="black">
           {title}
