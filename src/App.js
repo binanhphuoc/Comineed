@@ -13,7 +13,7 @@ class App extends Component {
         <div style={{position:'absolute', width:'100%'}}>
           <iframe
             align="left"
-            frameborder={0} style={{width:"50%", height: "100vh",borderLeft:0}}
+            frameborder={0} style={{width:"50%", height: 'calc(100vh - 64px)',borderLeft:0}}
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAmRGqEXBVcufLBcFGDw1T-Q5f7WxzUMj4&q=Space+Needle,Seattle+WA" allowfullscreen>
           </iframe>
           <Inforpanel title='Tuan Hung'/>

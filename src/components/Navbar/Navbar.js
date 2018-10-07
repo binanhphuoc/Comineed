@@ -16,6 +16,13 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import SvgIcon from '@material-ui/core/SvgIcon';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Amatic SC']
+  }
+});
 
 const styles = theme => ({
   root: {
@@ -33,6 +40,12 @@ const styles = theme => ({
     [theme.breakpoints.up('sm')]: {
       display: 'block',
     },
+    fontFamily: "Amatic SC", 
+    fontSize: 24+'px', 
+    fontStyle: 'normal', 
+    fontVariant: 'normal', 
+    fontWeight: 700, 
+    lineHeight: 26.4+'px',
   },
   search: {
     position: 'relative',
