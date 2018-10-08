@@ -41,8 +41,10 @@ function SimpleAppBar(props) {
             {info.description} 
         </Typography>
         <Typography variant="title" color="black">
-            {info.source}
+            <a href = {info.url}>Learn More!!</a> 
         </Typography>
+        <img src={info.urlToImage} class="Profile-image" alt="Profile image"/>
+ 
         <Typography variant="title" color="black">
             {info.author}
         </Typography>
